@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview"
+        android:src="@drawable/image1"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/randomize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Randomize"
+        android:layout_gravity="bottom" />
+    <Button
+        android:id="@+id/setwallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set as Wallpaper"
+        android:layout_gravity="bottom" />
+        <Button
+            android:id="@+id/loadwallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load Wallpaper"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+</FrameLayout>
